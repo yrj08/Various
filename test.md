@@ -31,12 +31,12 @@
     <td rowspan="2">CT</td>
   </tr>
   <tr>
-    <td>Station Viau</td>
+    <td>Station<br>Viau</td>
     <td>Village olymp.</td>
     <td>Viau / Mét.</td>
     <td>Mét. / Viau</td>
-    <td>Cré-mazie</td>
-    <td>Mont-pellier</td>
+    <td>Crémazie</td>
+    <td>Montpellier</td>
   </tr>   
   <tr>
     <td>16:29</td>
