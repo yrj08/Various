@@ -3,13 +3,21 @@
 <body>
 
 <header>
-  <h1>Main page heading here</h1>
-  <h2>PM Commute 1 (136-N and 460-O)</h2>
-  <p>Posted by John Doe</p>
+  <h1>Summer 2022 - PM Rush Commute</h1>
 </header>
 
-## PM Commute 1 (136-N + 460-O)xxx
-
+n =  new Date();
+y = n.getFullYear();
+m = n.getMonth() + 1;
+d = n.getDate();
+document.getElementById("date").innerHTML = m + "/" + d + "/" + y;
+  
+<p id="date"></p>
+  
+<header>
+  <h2>Commute 1 (136-N → 460-O)</h2>
+</header>
+  
 <table>
   <tr>
     <th colspan="6"><b>136 Viau N<b></th>
@@ -21,29 +29,29 @@
     <td><b>52988</b></td>
     <td><b>55009</b></td>
     <td rowspan="2"><b>Trip ID</b></td>
-    <td rowspan="2">Rank</td>
-    <td rowspan="2">CT</td>
+    <td rowspan="2"><b>Rank</b></td>
+    <td rowspan="2"><b>CT</b></td>
     <td><b>54751</b></td>
     <td><b>50794</b></td>
     <td><b>55770</b></td>
     <td rowspan="2"><b>Trip ID</b></td>
-    <td rowspan="2">Rank</td>
-    <td rowspan="2">CT</td>
+    <td rowspan="2"><b>Rank</b></td>
+    <td rowspan="2"><b>CT</b></td>
   </tr>
   <tr>
-    <td>Station<br>Viau</td>
-    <td>Village olymp.</td>
-    <td>Viau / Mét.</td>
-    <td>Mét. / Viau</td>
-    <td>Crémazie</td>
-    <td>Montpellier</td>
+    <td>Station Viau</td>
+    <td>Viau /<br>Village olymp.</td>
+    <td>Viau /<br>Métropolitain</td>
+    <td>Métropol. /<br>Viau</td>
+    <td>Station<br>Crémazie</td>
+    <td>C.-d.-Liesse/<br>Montpellier</td>
   </tr>   
   <tr>
     <td>16:29</td>
     <td>16:34</td>
     <td>16:51</td>
     <td><a href="https://gtfstools.site/run.php?trip_id=250268684">250268684</a></td>
-    <td style="background-color:#FFFFFF">1</td>
+    <td style="background-color:#D9EAD3">1</td>
     <td>FR</td>
     <td rowspan="5">17:20</td>
     <td rowspan="5">17:38</td>
@@ -81,7 +89,7 @@
     <td>16:58</td>
     <td>17:15</td>
     <td><a href="https://gtfstools.site/run.php?trip_id=250268670">250268670</a></td>
-    <td>1</td>
+    <td style="background-color:#D9EAD3">1</td>
     <td>FR</td>
   </tr>
   <tr>
